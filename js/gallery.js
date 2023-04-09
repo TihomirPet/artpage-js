@@ -19,14 +19,14 @@ console.log(supabase);
       `
 
 
-    <form method="get" action="/pages/detail.html">
+    <form method="get" action="/pages/detail.html" class="border">
 
-    <div class="border test" id="">
+    <div class=" test" id="">
      <button  type="submit">
       <h2  type="text" name="title-detail"   value="${element.title}"/>${element.title}</h2>
     
      <img  src="/public/images/${element.image}" height="200" />
-     <input  type="text" name="id"  value="${element.id}"/>
+     <input class=" test" type="text" name="id"  value="${element.id}"/>
      </button>
 
 
